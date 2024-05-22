@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* =====wraper section start===== */
+#wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ccc;
+}
+#wraper .result{
+    background-color: rgb(158, 124, 82);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#wraper .btn-group .dec{
+    padding: 10px;
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+#wraper .btn-group .inc{
+    padding: 10px;
+    background-color: olivedrab;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/* =====wraper section end===== */
+
+
+/* =====CreateNewColor section start===== */
+#CreateNewColor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F1C40F;
+}
+
+#CreateNewColor .clrBtn{
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #D0D3D4;
+    cursor: pointer;
+    background-color: #138D75;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .colorNumber{
+    border: none;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 140px;
+}
+/* =====CreateNewColor section end===== */
+
+/* =====rgbRange section start===== */
+/* #rgbRange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ccc;
+}
+#rgbRange .inp-rng{
+    width: 250px;
+    padding: 30px;
+    background-color: #E74C3C;
+    text-align: center;
+   
+}
+#rgbRange .inp-rng input{
+    padding: 20px 0;
+    cursor: pointer;
+    background: linear-gradient( red , black);
+    color: #fff;
+}
+
+#rgbRange .inp-rng #box{
+    margin-bottom: 15px;
+    text-align: center;
+} */
+/* =====rgbRange section end===== */
